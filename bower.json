@@ -1,0 +1,36 @@
+{
+  "name": "Bpong.eu",
+  "version": "1.0",
+  "authors": [
+    "Marian Radev"
+  ],
+  "description": "x",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "beer",
+    "pong",
+    "beer",
+    "bpong",
+    "bpong.eu",
+    "hot",
+    "babes"
+  ],
+  "license": "MIT",
+  "homepage": "http://bpong.eu/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25",
+    "angular-ui-router": "~0.2.11",
+    "angular-touch": "~1.2.25",
+    "angular-animate": "~1.2.25"
+  }
+}
