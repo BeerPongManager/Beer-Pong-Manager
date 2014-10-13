@@ -1,0 +1,48 @@
+@import "bootstrap/bootstrap";
+@import "pages/all";
+
+// Settings //
+
+ul, html, body, table {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+
+// -------- //
+
+
+html { 
+	width: 100%;
+	height: 100%;
+
+	// background: url(../images/bg.jpg) no-repeat center center fixed; 
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+}
+
+body {
+	// background: url(../images/bg.jpg) no-repeat center center fixed; 
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+}
+
+.wrapper {
+	margin: 0px;
+	padding: 0px;
+}
+
+.content {
+	background: $transparent-white;
+	border-radius: 10px;
+	padding: 40px;
+}
