@@ -1,22 +1,5 @@
 @import "bootstrap/bootstrap";
-
-
-// Variables //
-
-$dark-element-bg: #000;
-$main-font-style: 24px Impact, Charcoal, sans-serif;
-
-
-$main-yellow: #FBAB11;
-$main-blue: #0092F8;
-
-$white: #fff;
-$transparent-white: rgba(255, 255, 255, .9);
-$black: #000;
-
-
-// --------- //
-
+@import "pages/all";
 
 // Settings //
 
@@ -46,80 +29,16 @@ html {
 }
 
 body {
-	background: url(../images/bg.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	// background: url(../images/bg.jpg) no-repeat center center fixed; 
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
 }
 
 .wrapper {
 	margin: 0px;
 	padding: 0px;
-}
-
-
-
-nav {
-	background: $dark-element-bg;
-	margin: 50px auto;
-	box-shadow: 0px 0px 10px #7A7979;
-	border-radius: 10px;
-
-	.nav-logo {
-		display: block;
-
-		position: absolute;
-		left: -50px;
-		top: -30px;
-
-		height: 100px;
-		width: 100px;
-
-		border-radius:10px;
-		border: 5px solid $black;
-		background-image: url(../images/bpong-logo.png); 
-		background-color: $main-yellow;
-		background-size: contain;
-		background-position: 50% 0%;
-		background-repeat: no-repeat;
-
-		.text {
-			position: absolute;
-			bottom: -1px;
-			left: 50px;
-			margin-left: -42px;
-
-			text-shadow: 0px 1px 5px #000;
-			text-transform: uppercase;
-		
-			font: 20px Impact, Charcoal, sans-serif;
-			color: #fff;
-		}
-
-	}
-	
-	ul {
-		font: $main-font-style;
-		text-transform: uppercase;
-		padding-left: 40px;
-		height: 34px;
-		line-height: 34px;
-	}
-
-	li {
-		padding: 0 10px;
-	}
-
-	a {
-		// color: $main-yellow;
-		color: $white;
-		&:hover {
-			// color: $main-blue;
-			color: $main-yellow;
-			text-decoration: none;
-		}
-	}
 }
 
 .content {

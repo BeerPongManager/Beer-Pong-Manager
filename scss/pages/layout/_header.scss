@@ -1,0 +1,72 @@
+.nav-logo {
+		display: block;
+
+		// position: absolute;
+		// left: -50px;
+		// top: -30px;
+		position: relative;
+		height: 200px;
+		width: 200px;
+		margin: $element-space auto;
+		
+		border-radius:10px;
+		border: 5px solid $black;
+		background-image: url(../images/bpong-logo.png); 
+		background-color: $main-yellow;
+		background-size: contain;
+		background-position: 50%;
+		background-repeat: no-repeat;
+
+		.text {
+			position: absolute;
+			bottom: -17px;
+			left: 50%;
+			margin-left: -56px;
+
+			text-shadow: 0px 1px 5px #000;
+			text-transform: uppercase;
+		
+			font-size: 30px;
+			color: $white;
+		}
+	}
+
+
+header {
+	// background: $dark-element-bg;
+	// margin: 50px auto;
+	// box-shadow: 0px 0px 10px #7A7979;
+	// border-radius: 10px;
+
+	
+	
+	ul {
+		font: $main-font-style;
+		text-transform: uppercase;
+		padding-left: 40px;
+		height: 34px;
+		line-height: 34px;
+		text-align: center;
+	}
+
+	li {
+		padding: 0 10px;
+
+		&:first-child {
+			border-left: 1px solid $more-transparent-white;
+		}
+
+		border-right: 1px solid $more-transparent-white;
+	}
+
+	a {
+		color: $black;
+		&:hover {
+			color: $white;
+			color: #fff;
+			text-shadow: -1px -1px 0 $black, 1px -1px 0 $black, -1px 1px 0 $black, 1px 1px 0 $black;
+			text-decoration: none;
+			border-bottom: 1px solid $black;
+		}
+	}
+}

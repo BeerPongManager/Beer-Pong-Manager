@@ -1155,6 +1155,61 @@ hr {
 @media print {
   .hidden-print {
     display: none !important; } }
+.nav-logo {
+  display: block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 10px;
+  border: 5px solid #000;
+  background-image: url(../images/bpong-logo.png);
+  background-color: #FBAB11;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+  .nav-logo .text {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    margin-left: -56px;
+    text-shadow: 0px 1px 5px #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff; }
+
+header ul {
+  font: 24px Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  padding-left: 40px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center; }
+header li {
+  padding: 0 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3); }
+  header li:first-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.3); }
+header a {
+  color: #000; }
+  header a:hover {
+    color: #fff;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000; }
+
+.footer {
+  background-color: #000;
+  min-height: 150px;
+  color: #fff; }
+
+.indent {
+  padding-left: 20px; }
+
+li {
+  margin: 10px 0; }
+
 ul, html, body, table {
   margin: 0px;
   padding: 0px; }
@@ -1167,58 +1222,9 @@ html {
   width: 100%;
   height: 100%; }
 
-body {
-  background: url(../images/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .wrapper {
   margin: 0px;
   padding: 0px; }
-
-nav {
-  background: #000;
-  margin: 50px auto;
-  box-shadow: 0px 0px 10px #7A7979;
-  border-radius: 10px; }
-  nav .nav-logo {
-    display: block;
-    position: absolute;
-    left: -50px;
-    top: -30px;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
-    border: 5px solid #000;
-    background-image: url(../images/bpong-logo.png);
-    background-color: #FBAB11;
-    background-size: contain;
-    background-position: 50% 0%;
-    background-repeat: no-repeat; }
-    nav .nav-logo .text {
-      position: absolute;
-      bottom: -1px;
-      left: 50px;
-      margin-left: -42px;
-      text-shadow: 0px 1px 5px #000;
-      text-transform: uppercase;
-      font: 20px Impact, Charcoal, sans-serif;
-      color: #fff; }
-  nav ul {
-    font: 24px Impact, Charcoal, sans-serif;
-    text-transform: uppercase;
-    padding-left: 40px;
-    height: 34px;
-    line-height: 34px; }
-  nav li {
-    padding: 0 10px; }
-  nav a {
-    color: #fff; }
-    nav a:hover {
-      color: #FBAB11;
-      text-decoration: none; }
 
 .content {
   background: rgba(255, 255, 255, 0.9);

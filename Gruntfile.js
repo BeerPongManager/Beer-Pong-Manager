@@ -12,11 +12,20 @@ module.exports = function(grunt) {
 								}
 						},
 						files: {
+								// Layout
+								'templates/layout/header.html': 'jade/layout/header.jade',
+								'templates/layout/footer.html': 'jade/layout/footer.jade',
+
 								// Pages
 								'index.html': 'jade/index.jade',
 								'templates/home.html': 'jade/home.jade',
-								'templates/rules.html': 'jade/rules.jade'
-					 }
+								'templates/rules.html': 'jade/rules.jade',
+								'templates/schedule.html': 'jade/schedule.jade',
+								'templates/gallery.html': 'jade/gallery.jade',
+								'templates/charms.html': 'jade/charms.jade',
+								'templates/contacts.html': 'jade/contacts.jade',
+								'templates/menager.html': 'jade/menager.jade',
+						}
 				}
 		},
 		sass: {

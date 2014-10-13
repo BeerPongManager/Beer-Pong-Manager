@@ -1,39 +1,27 @@
 doctype html
-html(lang="en")
+html(lang="bg")
 	head
 		meta(charset="UTF-8")
 		title  Bpong.eu 
 		link(rel='stylesheet', href='css/main.css')
-		script(type="javascript/text" src="/bower_components/angular/angular.min.js")
-		script(type="javascript/text" src="/bower_components/angular-animate/angular-animate.min.js")
-		//- Scripts
-		script(type="javascript/text" src="/bower_components/angular-touch/angular-touch.min.js")
-		script(type="javascript/text" src="/bower_components/angular-ui-router/release/angular-ui-router.min.js")
-
-
-
-	
 	body
 		.wrapper(ng-app="app")
 			.container
 				.row
-					nav.header.col-md-12.col-sm-12.col-lg-12
+					.col-md-12.col-sm-12.col-lg-12
 						.nav-logo
 							.text bpong.eu
-						ul
-							li
-								a(ui-sref="/" alt="") Начало
-							li
-								a(ui-sref="/за-играта" alt="") За играта
-							li
-								a(href="schedule.html" alt="") Турнири
-							li
-								a(href="gallery.html" alt="") Галерия
-							li
-								a(href="charms.html" alt="") Талисмани
-							li
-								a(href="contact.html" alt="") Контакти
-			div(ng-view)
 
 
-		
+			header(ng-include="'templates/layout/header.html'")
+			div(ui-view)
+			.footer(ng-include="'templates/layout/footer.html'")
+
+
+
+	script(src="/bower_components/angular/angular.js")
+	script(src="/bower_components/angular-ui-router/release/angular-ui-router.js")
+	script(src="/js/app.js")
+	//- script(type="javascript/text" src="/bower_components/angular-animate/angular-animate.min.js")
+	//- //- Scripts
+	//- script(type="javascript/text" src="/bower_components/angular-touch/angular-touch.min.js")
