@@ -1,10 +1,10 @@
-Beer-Pong-Menager
+Beer Pong Menager
 =================
 
 About ?
 ================
 
-Website of Bpong.eu and future home of Beer Pong Menager System
+Website of http://Bpong.eu and future home of Beer Pong Menager System
 
 How to run the project:
 =================
