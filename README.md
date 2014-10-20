@@ -1,4 +1,4 @@
-Beer Pong Menager
+Beer Pong Manager
 =================
 
 About ?
