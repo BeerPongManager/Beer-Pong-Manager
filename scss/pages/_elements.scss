@@ -19,3 +19,20 @@ section {
 	background: rgba(209,207,202,0.35);
 	box-shadow: 0 0 0 10px rgba(209,207,202,0);
 }
+
+input {
+	border: 0px;
+	background: rgba(209,207,202,0.35);
+	padding: 5px 0 5px 10px;
+
+	&:focus {
+		outline: none !important;
+	}
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}

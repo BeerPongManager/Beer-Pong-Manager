@@ -1176,6 +1176,11 @@ hr {
     font-size: 30px;
     color: #fff; }
 
+.search {
+  position: absolute;
+  top: 30px;
+  right: 30px; }
+
 header ul {
   font: 24px Impact, Charcoal, sans-serif;
   text-transform: uppercase;
@@ -1224,6 +1229,21 @@ section {
   line-height: 20px;
   background: rgba(209, 207, 202, 0.35);
   box-shadow: 0 0 0 10px rgba(209, 207, 202, 0); }
+
+input {
+  border: 0px;
+  background: rgba(209, 207, 202, 0.35);
+  padding: 5px 0 5px 10px; }
+  input:focus {
+    outline: none !important; }
+
+::selection {
+  background: #ffb7b7;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #ffb7b7;
+  /* Gecko Browsers */ }
 
 .indent {
   padding-left: 20px; }
