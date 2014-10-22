@@ -1,6 +1,9 @@
 .sass-cache
-bower_components
+.DS_Store
+.sass-cache
+npm-debug.log
 node_modules
+bower_components
 templates/*.html
 templates/**/*.html
 

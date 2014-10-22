@@ -47,4 +47,10 @@ angular
 				templateUrl: 'templates/menager.html'
 			})
 
+		$stateProvider
+			.state('blog', {
+				url: '/blog',
+				templateUrl: 'templates/blog.html'
+			})
+
 	}])

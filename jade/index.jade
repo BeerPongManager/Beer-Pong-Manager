@@ -2,26 +2,48 @@ doctype html
 html(lang="bg")
 	head
 		meta(charset="UTF-8")
-		title  Bpong.eu 
+		title Bpong.eu 
 		link(rel='stylesheet', href='css/main.css')
-	body
-		.wrapper(ng-app="app")
+		link(rel="stylesheet" href="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css")
+		script(src="/bower_components/jquery/dist/jquery.min.js")
+		//- script(src="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js")
+		//- script(src="/js/carousel.js")
+
+	body(ng-app="app")
+		main
 			.container
 				.row
 					.col-md-12.col-sm-12.col-lg-12
 						.nav-logo
-							.text bpong.eu
+							//- .text bpong.eu
+						.search
+							input(type="text", placeholder="Търсиш нещо ?")
 
 
 			header(ng-include="'templates/layout/header.html'")
 			div(ui-view)
-			.footer(ng-include="'templates/layout/footer.html'")
+
+			.push
+
+		footer(ng-include="'templates/layout/footer.html'")
 
 
 
 	script(src="/bower_components/angular/angular.js")
 	script(src="/bower_components/angular-ui-router/release/angular-ui-router.js")
+	//- script(defer src="/js/jquery.flexslider.js")
+
 	script(src="/js/app.js")
+
+		
+	//- script.
+	//- 	(function($){
+	//- 		$(window).load(function(){
+	//- 			$("body").mCustomScrollbar();
+	//- 		});
+	//- 	})(jQuery);
+	//- script(src="/bower_components/angular-touch/angular-touch.js")
+	//- script(src="/bower_components/angular-carousel/angular-carousel.js")
 	//- script(type="javascript/text" src="/bower_components/angular-animate/angular-animate.min.js")
 	//- //- Scripts
 	//- script(type="javascript/text" src="/bower_components/angular-touch/angular-touch.min.js")

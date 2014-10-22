@@ -10,9 +10,9 @@
 		margin: $element-space auto;
 		
 		border-radius:10px;
-		border: 5px solid $black;
-		background-image: url(../images/bpong-logo.png); 
-		background-color: $main-yellow;
+		// border: 5px solid $black;
+		background-image: url(../images/logo-2.jpg); 
+		// background-color: $main-yellow;
 		background-size: contain;
 		background-position: 50%;
 		background-repeat: no-repeat;
@@ -31,6 +31,11 @@
 		}
 	}
 
+.search {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
 
 header {
 	// background: $dark-element-bg;
@@ -43,9 +48,12 @@ header {
 	ul {
 		font: $main-font-style;
 		text-transform: uppercase;
-		padding-left: 40px;
-		height: 34px;
-		line-height: 34px;
+		
+		border: 4px solid #d1cfca;
+		border-left: none;
+		border-right: none;
+
+		margin-bottom: 20px;
 		text-align: center;
 	}
 
