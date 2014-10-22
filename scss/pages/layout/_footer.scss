@@ -1,5 +1,10 @@
-.footer {
+footer {
+	margin-top: 20px;
 	background-color: $black;
 	min-height: 150px;
 	color: $white;
+
+	h1 {
+		color: $font-color;
+	}
 }
