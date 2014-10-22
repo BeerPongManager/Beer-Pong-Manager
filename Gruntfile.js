@@ -25,6 +25,7 @@ module.exports = function(grunt) {
 								'templates/charms.html': 'jade/charms.jade',
 								'templates/contacts.html': 'jade/contacts.jade',
 								'templates/menager.html': 'jade/menager.jade',
+								'templates/blog.html': 'jade/blog.jade',
 						}
 				}
 		},
