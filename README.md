@@ -4,21 +4,24 @@ Beer Pong Manager
 About ?
 ================
 
-Website of http://Bpong.eu and future home of Beer Pong Menager System
+Website of http://Bpong.eu and future home of Beer Pong Manager System
 
 How to run the project:
 =================
 
-You just need any kind of server to run the project
-The easiest way is to run simple Python server:
+You will need to run a mongo database or connection to a remote one, you can set the mongo DSN on config/db.js
 
-1. Install Python (v2.7).
-2. run command "Python -m SimpleHTTPServer 8080" (or any port you want).
-3. You are running the project.
+All the jade files should be in the templates foler to be compiled to html
 
+```javascript
+npm install // this runs npm and bower install for all deps
+
+npm start // runs the server with local mongo database
+```
+
+* If you are asked by bower to choose a suitable angular version, chose angular#_1.3.0
 
 Grunt Commands:
 =================
 
 grunt watch   - Waits for JADE and SASS changes and compiles the files.
-
