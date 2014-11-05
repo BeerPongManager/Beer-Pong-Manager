@@ -68,8 +68,5 @@ module.exports = function(grunt) {
 
 
 	grunt.registerTask('build', ['jade', 'sass']);
-
-
 	grunt.registerTask('default', ['build']);
-
 };

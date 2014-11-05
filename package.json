@@ -1,7 +1,25 @@
 {
   "name": "bpong.eu",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Marian Radev <marianradiradev@gmail.com>",
+  "contributors":[{
+  		"name": "Ulpian Morina",
+  		"email": "ulpianmorina@gmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeerPongManager/Beer-Pong-Manager"
+  },
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt":"^0.4.5",
+    "express": "~4.5.1",
+  	"mongoose": "~3.8.0",
+  	"body-parser": "~1.4.2",
+  	"method-override": "~2.0.2",
+    "morgan": "~1.4.1",
+    "bower": "1.3.12"
   }
 }
